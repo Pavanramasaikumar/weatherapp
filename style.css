@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color:cadetblue;
+}
+.search{
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+    box-shadow: 0 0 20px black;
+    border-radius: 20px;
+    padding: 10px;
+}
+.search input{
+    margin: 20px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 10px;
+}
+.search input:focus{
+    border-color: aqua;
+    outline: none;
+}
+.search button{
+    background-color: hsl(120, 100%, 40%);
+    border-radius: 20px;
+    border: none;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+.search button:hover{
+    background-color: hsl(120, 100%, 50%);
+}
+.search button:active{
+    background-color: hsl(120, 100%, 70%);
+}
+.card{
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    background: linear-gradient(180deg,hsl(240, 100%, 50%,0.5),hsl(60, 100%, 50%,.5));
+    min-width: 250px;
+    padding: 50px;
+    box-shadow: 0 0 20px black;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+h1{
+    font-size: 3.1rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.citydis{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: rgb(0, 0, 20);
+    margin-bottom: 15px;
+}
+.tempdis{
+    font-size: 2emrem;
+    font-weight: bold;
+    color: rgb(0, 0, 20);
+    margin-bottom: 15px;
+}
+p{
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+.humdis{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.descdis{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+}
+.emoji{
+    font-weight: bold;
+    margin: 0;
+    font-size: 6.4rem;
+}
+.errordis{
+    font-weight: bold;
+    font-size: 2rem;
+    color: hsl(0, 0%, 0%,0.8);
+}
+#map{
+    height: 500px;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px black;
+}
